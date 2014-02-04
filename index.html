@@ -1,0 +1,18 @@
+---
+layout: default
+title: blog
+---
+
+<div class="row">
+  <div class="jumbotron">Or How I learned to Stop Worrying and Love the Code <br>
+    <a href="https://github.com/el-feo"><i class="fa fa-github-square"></i></a>
+    <a href="http://www.linkedin.com/in/jebcoleman/"><i class="fa fa-linkedin-square"></i></a>
+  </div>
+  <ul class="list-group">
+    {% for post in site.posts %}
+      <li class="list-group-item">
+        <span>{{ post.date | date_to_string }}</span> <a href="{{ post.url }}"><i class="fa fa-arrow-circle-o-right"></i> {{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

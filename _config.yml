@@ -1,0 +1,4 @@
+name: The Center for Lessons Learned
+markdown: redcarpet
+pygments: true
+paginate: 5
