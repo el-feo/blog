@@ -3,4 +3,3 @@ markdown: redcarpet
 pygments: true
 paginate: 5
 baseurl: /blog
-source: el-feo.github.io/blog
